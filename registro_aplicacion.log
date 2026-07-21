@@ -1,0 +1,16 @@
+20/07/2026 19:07:26 | WARNING  | 3638244434.py:185 | configurar_logger() | Telegram no está configurado. Faltan TELEGRAM_BOT_TOKEN o TELEGRAM_CHAT_ID.
+20/07/2026 19:07:26 | INFO     | 3638244434.py:226 | ejecutar_programa() | El programa ha iniciado.
+20/07/2026 19:07:26 | DEBUG    | 3638244434.py:228 | ejecutar_programa() | Este es un mensaje utilizado para depuración.
+20/07/2026 19:07:26 | INFO     | 3638244434.py:232 | ejecutar_programa() | La aplicación está funcionando normalmente.
+20/07/2026 19:07:26 | WARNING  | 3638244434.py:236 | ejecutar_programa() | Este es un mensaje de advertencia.
+20/07/2026 19:07:26 | DEBUG    | 3638244434.py:201 | dividir() | Se intenta dividir 20 entre 4.
+20/07/2026 19:07:26 | INFO     | 3638244434.py:210 | dividir() | La división se realizó correctamente. Resultado: 5.0
+20/07/2026 19:07:26 | DEBUG    | 3638244434.py:201 | dividir() | Se intenta dividir 10 entre 0.
+20/07/2026 19:07:26 | ERROR    | 3638244434.py:218 | dividir() | No se puede realizar una división para cero.
+Traceback (most recent call last):
+  File "C:\Users\Usuario\AppData\Local\Temp\ipykernel_15456\3638244434.py", line 208, in dividir
+    resultado = numero1 / numero2
+                ~~~~~~~~^~~~~~~~~
+ZeroDivisionError: division by zero
+20/07/2026 19:07:26 | CRITICAL | 3638244434.py:243 | ejecutar_programa() | Ejemplo de un mensaje de nivel crítico.
+20/07/2026 19:07:26 | INFO     | 3638244434.py:247 | ejecutar_programa() | El programa ha finalizado.
